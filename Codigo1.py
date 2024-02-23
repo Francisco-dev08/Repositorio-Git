@@ -1,7 +1,7 @@
-nameUser = "Pedro"
+nameUser = input("Dime tu nombre")
 
 def hello(name):
-    print(f"Hola {name}")
+    print(f"¡Bienvenido a nuestro sitio, {name}!")
     
 hello(nameUser)
 
